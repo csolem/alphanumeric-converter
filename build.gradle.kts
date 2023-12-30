@@ -1,9 +1,9 @@
 plugins {
     kotlin("jvm") version "1.9.21"
+    id("net.researchgate.release") version "3.0.2"
 }
 
-group = "com.github.csolem"
-version = "1.0-SNAPSHOT"
+group = "com.github.csolem.alphanumeric-converter"
 
 repositories {
     mavenCentral()
